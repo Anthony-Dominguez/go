@@ -1,75 +1,38 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
-# Test binary, built with `go test -c`
-*.test
+# dependencies
+node_modules/
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
 
-# Go workspace file
-go.work
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
 
-# Dependency directories (remove the comment below to include it)
-vendor/
+# Metro
+.metro-health-check*
 
-# Go build cache
-.cache/
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
 
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS generated files
+# macOS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+*.pem
 
-# Logs
-*.log
-logs/
+# local env files
+.env*.local
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Environment variables
+# typescript
+*.tsbuildinfo
 .env
-.env.local
-.env.*.local
-
-# Build artifacts
-dist/
-build/
-bin/
-
-# Temporary files
-tmp/
-temp/
-
-# Coverage reports
-coverage.txt
-coverage.html
-coverage.xml
-
-# Air (live reload for Go) temporary files
-tmp/
-
-# goreleaser builds
-dist/
-
-# Local development files
-.localenv
